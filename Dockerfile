@@ -4,4 +4,4 @@ FROM yannrobert/docker-nginx
 
 EXPOSE 8888
 
-COPY echo.conf /etc/nginx/sites-enabled/echo.conf
+ADD root /
